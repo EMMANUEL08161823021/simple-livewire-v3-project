@@ -5,9 +5,12 @@
         </h2>
     </x-slot>
 
-    <div class="py-12">
+    <div class="">
 
         <!-------------------- Create the Business landing page right here ------------------->
+        <x-sections.hero />
+        <x-sections.menu />
+        <x-sections.tags />
 
     </div>
 </x-app-layout>
